@@ -4,7 +4,7 @@
   "description": "CS193X Final Project",
   "main": "server.js",
   "engines": {
-    "node": "^7.0.276.28"
+    "node": "^7.0.276"
   },
   "dependencies": {
     "body-parser": "^1.17.1",

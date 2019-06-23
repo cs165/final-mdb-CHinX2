@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 #home .contents {
-    background-image: image("/images/ccuwsband-1.jpg");
+    background-image: url("/images/ccuwsband-1.jpg");
     box-sizing: border-box;
     margin: auto;
     height: 50vh;

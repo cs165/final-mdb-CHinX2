@@ -1,3 +1,67 @@
 /**
  * TODO(you): Add the CSS necessary to complete your final project.
  **/
+body {
+    background-color: #162146;
+    color: rgb(240, 245, 255);
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+  
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    text-align: center;
+  }
+  
+.inactive {
+    display: none !important;
+}
+  
+#main {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+  
+
+#home {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+  
+#home .contents {
+    background-image: image("/images/ccuwsband-1.jpg");
+    box-sizing: border-box;
+    margin: auto;
+    height: 50vh;
+    width: 100vw;
+}
+  
+#home .contents header {
+    margin: 1em 0;
+}
+  
+#home .contents header h1 {
+    font-size: 2.5em;
+}
+  
+#home .contents header h2 {
+    font-weight: normal;
+}

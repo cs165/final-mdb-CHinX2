@@ -5,10 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>CS193x Final Project</title>
     <link rel="stylesheet" href="/css/style.css"/>
-    <script src="/js/script.js" defer></script>
+
+    <script src="/js/concert.js" defer></script>
+    <script src="/js/log-screen.js" defer></script>
+    <script src="/js/home-screen.js" defer></script>
+    <script src="/js/app.js" defer></script>
+    <script src="/js/main.js" defer></script>
     </script>
   </head>
   <body>
     <!-- TODO(you): Add the HTML necessary to complete your final project. -->
+    <div id="home">
+      <div class="contents">
+        <header>
+          <h1>中正大學管弦樂社</h1>
+          <h2>CCU Orchestra</h2>
+        </header>
+        <div id="start"></div>
+      </div>
+    </div>
+
+    <div id="main" class="inactive">
+      <div id="log-container">
+        <header>
+          <h1></h1>
+        </header>
+      </div>
+
+      <div class="status">
+        <div><span class="correct"></span> right</div>
+        <div><span class="incorrect"></span> wrong</div>
+      </div>
+    </div>
+
   </body>
 </html>
